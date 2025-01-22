@@ -2,13 +2,13 @@
 
 echo "find the factorial of the given number"
 echo ""
+echo "please enter the numbers"
 
-echo "please enter the required numbers"
 read numbers
 
 for i in $numbers
 do
-	fcat=1
+	fact=1
 	num=$i
 	while [ $num -gt 0 ]
 	do 
